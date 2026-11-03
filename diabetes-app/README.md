@@ -26,4 +26,7 @@ Open http://localhost:8000 (app) or http://localhost:8000/docs (API docs).
 | GET | /api/info | slider ranges |
 | POST | /api/predict | six values -> label, probability, per-input effect |
 
+## Deploy on Render
+Root directory `diabetes-app` (or repo root if deployed standalone) · Build `pip install -r requirements.txt` · Start `uvicorn main:app --host 0.0.0.0 --port $PORT`
+
 Educational demo only, not medical advice.
