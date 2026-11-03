@@ -13,7 +13,7 @@ It runs from raw data collection to trained models served as live web apps.
 | App | Model | Demo |
 |---|---|---|
 | [Diabetes Predictor](diabetes-app/) | Logistic regression, 6 clinical inputs | https://diabetes-predictor-jwjc.onrender.com |
-| [Tumour Classifier](cancer-app/) | Logistic regression, 6 cell-nucleus features, 89.5% test accuracy | _add Render link here_ |
+| [Tumour Classifier](cancer-app/) | Logistic regression, 6 cell-nucleus features, 89.5% test accuracy | https://intro-to-ai-lab-works.onrender.com |
 
 The free servers sleep when idle, so the first load can take 30–60 seconds.
 

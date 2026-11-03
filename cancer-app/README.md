@@ -5,7 +5,7 @@ Trains a logistic regression model on the Breast Cancer Wisconsin dataset (built
 **Model:** 6 features (mean radius, texture, area, smoothness, concavity, symmetry), StandardScaler + LogisticRegression.
 **Test accuracy:** 89.5% (455 train / 114 test). Confusion matrix `[[38, 4], [8, 64]]` (0 = malignant).
 
-**Live demo:** _add Render link here_
+**Live demo:** https://intro-to-ai-lab-works.onrender.com
 
 ```
 cancer-app/
