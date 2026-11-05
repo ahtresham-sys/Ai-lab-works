@@ -26,7 +26,7 @@ Scrape/collect  ->  Features  ->  EDA  ->  Train  ->  Evaluate  ->  Serve (API) 
 | [`lab-06-fastapi-diabetes-api/`](lab-06-fastapi-diabetes-api/) | First version of the diabetes model served as a REST API | FastAPI, pydantic |
 | [`lab-07-cnn-kernel-from-scratch/`](lab-07-cnn-kernel-from-scratch/) | CNN forward pass by hand: convolution, ReLU, dense, softmax | NumPy |
 | [`cancer-app/`](cancer-app/) | Full-stack ML app with per-feature explanations | FastAPI, JS frontend |
-| [`diabetes-app/`](diabetes-app/) | Deployed full-stack ML app | FastAPI, JS frontend, Render |
+| [`diabetes-app/`](diabetes-app/) | Full-stack ML app | FastAPI, JS frontend |
 | [`practice/`](practice/) | Practice datasets and notebooks | pandas |
 
 Labs 1 and 5 are not included in this repository.
@@ -34,12 +34,13 @@ Labs 1 and 5 are not included in this repository.
 ## Run locally
 
 ```bash
-git clone https://github.com/codesbyahmad/intro-to-ai-lab-works.git
-cd intro-to-ai-lab-works/diabetes-app      # or cancer-app
+git clone https://github.com/ahtresham-sys/Ai-lab-works.git
+cd Ai-lab-works/diabetes-app      # or cancer-app
 python -m pip install -r requirements.txt
-python train.py                            # cancer-app only
+python train.py                   # cancer-app only
 python -m uvicorn main:app --reload --port 8000
 ```
+
 Open http://localhost:8000 for the app and http://localhost:8000/docs for the API docs.
 
 ## Notes
@@ -47,4 +48,4 @@ Open http://localhost:8000 for the app and http://localhost:8000/docs for the AP
 - Educational projects only, not medical advice.
 
 ## Author
-**Ahmad Sheraz**: [GitHub](https://github.com/codesbyahmad) · [Portfolio](https://codesbyahmad.github.io/MY_Portfolio)
+**Ahtesham**: [GitHub](https://github.com/ahtresham-sys)
